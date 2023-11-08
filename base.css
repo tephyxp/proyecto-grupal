@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+:root {
+    --light-bg: #F9EAEA;
+    --dark-bg: #1E1E1E;
+    --brand-color: #E19898;
+    --button-primary: #4D3C77;
+    --button-tertiary: #B07A8D;
+    --color-white: #FFFFFF;
+    
+
+}
+
+body {
+font-family: 'Jost', Arial, Helvetica, sans-serif;
+
+}
+
