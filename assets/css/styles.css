@@ -208,13 +208,108 @@ li.developer p {
     padding-right: 265px;
 }
 
-<<<<<<< HEAD
-.formulary {
-  display: grid;
-  gap: 10px;
+/* página contact */
 
-=======
-.contact{
-    content:align;
->>>>>>> 50190f05ed2fa3a48642140017e986a8a152fc33
+.contact-container{
+  width: 100%;
+  height: 18em;
+  display: flex ;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-bottom: 7em;
+
 }
+
+.contact-title{
+  height: 3rem;
+  font-size: 4em ;
+  margin-bottom: 0.3em;
+}
+
+.data-container{
+  display: flex;
+  justify-content: center;
+  padding: 2em 2em 4em 2em;
+}
+
+input{
+  background-color: var(--light-bg);
+  border-color: var(--light-bg);
+  appearance: none;
+  border: none; 
+  outline: none;
+  border-radius: 1.5em;
+  padding: 0.625rem 1.25rem;
+  width: 18em;
+  font-family: inherit;
+  font-size: inherit;
+  
+
+}
+input::placeholder {
+  color: #C9BFBE;
+}
+
+textarea{
+  background-color: var(--light-bg);
+  border-color: var(--light-bg);
+  appearance: none;
+  outline: none; 
+  width: 18em;
+  padding: 0.5rem 1.25rem;
+  border-radius: 1.5em;
+  font-family: inherit;
+  font-size: inherit;
+  color: #C9BFBE;
+  resize: none
+}
+
+textarea::placeholder {
+  color: #C9BFBE;
+}
+
+.first-inputs {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2em;
+}
+
+.buttons {
+  margin-top: 20px; 
+  padding: 0.625rem 1.25rem 0.625rem 0 ;
+  display: flex;
+}
+
+.contact-button{
+  background-color: var(--button-primary);
+  border: 1px solid var(--light-bg);
+  border-radius: 28px;
+  color: var(--color-white);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: 0.625rem 1.9rem;
+}
+
+.cancel-button{
+  background-color: var(--brand-color);
+  border: 1px solid var(--light-bg);
+  border-radius: 28px;
+  color: var(--color-white);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: 0.625rem 1.25rem;
+}
+
+label {
+  margin-bottom: 5px;
+  padding: 0.625rem 1.25rem;
+}
+
+.secondary-input{
+  display: flex;
+  flex-direction: column;
+} HEAD
+

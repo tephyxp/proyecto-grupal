@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <title>Contáctanos</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <nav class="navbar container">
-        <img class="logo" src="" alt="logo" />
-        <ul class="nav-container">
-          <li><a href="index.html">Somos</a></li>
-          <li>
-            <a href="contact.html" class="tertiary-button"><button>Contáctanos</button></a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="navbar container">
+            <img class="logo" src="" alt="logo" />
+            <ul class="nav-container">
+                <li><a href="index.html">Somos</a></li>
+                <li>
+                    <a href="contact.html" class="tertiary-button"><button>Contáctanos</button></a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <main>
-      <div class="container">
-    
-        <h1>Contáctanos</h1>
-    
-        <form method="post">
-          <fieldset class="formulary">
-            <div>
-              <label for="name">Nombre<input id="name" name="nombre" type="text" required placeholder="Escribe tu nombre" /></label>
-              <label for="email">Mail<input id="email" name="email" type="email" required placeholder="Escribe tu email" /></label>
-            </div>
-            <div>
-              <label for="consulta" class="consulta">Consulta<textarea id="consulta" name="consulta" rows="5"
-                  placeholder="Escribe tu consula..."></textarea>
-              </label>
-            </div>
-            <a href="contact.html" class="primary-button"><button>enviar</button></a>
-            <button>cancelar</button>
-          </fieldset>
-      </div>
-      </form>
-            
+    <main class="contact-container">
+
+            <h1 class="contact-title">Contáctanos</h1>
+                <form class="data-container">
+                    <div class="first-inputs">
+                        <label for="name">Nombre</label>
+                        <input id="name" name="nombre" type="text" required placeholder="Escribe tu nombre" />
+                    
+                        <label for="email">Mail</label>
+                        <input id="email" name="email" type="email" required placeholder="Escribe tu email" />
+                    
+                        <div class="buttons">
+                            <button class="contact-button">
+                                <a href="contact.html" class="primary-button">Enviar</a>
+                            </button>
+                            <button class="cancel-button">Cancelar</button>
+                        </div>
+                    </div>
+                    
+                    <div class="secondary-input">
+                        <label for="consulta" class="consulta">Consulta</label>
+                        <textarea id="consulta" name="consulta" rows="5"
+                                placeholder="Escribe tu consulta..."></textarea>
+                        </label>
+                    </div>
+                </form>
     </main>
     <footer>
-      <ul class="container">
-        <li class="developer">
-          <a href="perfil-Carolina.html"><img src="./assets/images/avatar01.png" alt="Carolina Chagas" /></a>
-          <h2>Carolina Chagas</h2>
-          <p>Desarrolladora</p>
-          <a href="http://www.linkedin.com/in/tcarolina"><i class="fa-brands fa-linkedin"></i></a>
-        </li>
-        <li class="developer">
-          <a href="perfil-zohra.html"><img src="./assets/images/avatar02.png" alt="Zohra Bellamine" /></a>
-          <h2>Zohra Bellamine</h2>
-          <p>Desarrolladora</p>
-          <a href="https://www.linkedin.com/in/zohra-bellamine/"><i class="fa-brands fa-linkedin"></i></a>
-        </li>
-        <li class="developer">
-          <a href="perfil-gaby.html"><img src="./assets/images/avatar03.png" alt="Gabriela Irimia" /></a>
-          <h2>Gabriela Irimia</h2>
-          <p>Desarrolladora</p>
-          <a href="www.linkedin.com/in/gabriela-irimia-760110164"><i class="fa-brands fa-linkedin"></i></a>
-        </li>
-        <li class="developer">
-          <a href="perfil-fefy.html"><img src="./assets/images/avatar04.png" alt="Stefania Desogus" /></a>
-          <h2>Stefania Desogus</h2>
-          <p>Desarrolladora</p>
-          <a href="https://www.linkedin.com/in/stefaniadesogus/"><i class="fa-brands fa-linkedin"></i></a>
-        </li>
-        <li class="developer">
-          <a href="perfil-Steph.html"><img src="./assets/images/avatar05.png" alt="Stephanie Céspedes" /></a>
-          <h2>Stephanie Céspedes</h2>
-          <p>Desarrolladora</p>
-          <a href="https://www.linkedin.com/in/stephanie-c%C3%A9spedes-40473328b/"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-        </li>
-      </ul>
+        <ul class="container">
+            <li class="developer">
+                <a href="perfil-Carolina.html"><img src="./assets/images/avatar01.png" alt="Carolina Chagas" /></a>
+                <h2>Carolina Chagas</h2>
+                <p>Desarrolladora</p>
+                <a href="http://www.linkedin.com/in/tcarolina"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="developer">
+                <a href="perfil-zohra.html"><img src="./assets/images/avatar02.png" alt="Zohra Bellamine" /></a>
+                <h2>Zohra Bellamine</h2>
+                <p>Desarrolladora</p>
+                <a href="https://www.linkedin.com/in/zohra-bellamine/"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="developer">
+                <a href="perfil-gaby.html"><img src="./assets/images/avatar03.png" alt="Gabriela Irimia" /></a>
+                <h2>Gabriela Irimia</h2>
+                <p>Desarrolladora</p>
+                <a href="www.linkedin.com/in/gabriela-irimia-760110164"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="developer">
+                <a href="perfil-fefy.html"><img src="./assets/images/avatar04.png" alt="Stefania Desogus" /></a>
+                <h2>Stefania Desogus</h2>
+                <p>Desarrolladora</p>
+                <a href="https://www.linkedin.com/in/stefaniadesogus/"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="developer">
+                <a href="perfil-Steph.html"><img src="./assets/images/avatar05.png" alt="Stephanie Céspedes" /></a>
+                <h2>Stephanie Céspedes</h2>
+                <p>Desarrolladora</p>
+                <a href="https://www.linkedin.com/in/stephanie-c%C3%A9spedes-40473328b/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </li>
+        </ul>
     </footer>
-  </body>
+</body>
+
 </html>
