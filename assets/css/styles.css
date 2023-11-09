@@ -183,7 +183,11 @@ li.developer {
 }
 
 li.developer img {
+  width: 6.25em; 
+  height: 6.25em; 
+  border-radius: 50%;
   background-color: var(--dark-bg);
+
 }
 
 li.developer h2 {
