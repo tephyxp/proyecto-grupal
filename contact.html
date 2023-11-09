@@ -22,15 +22,18 @@
     </header>
     <main>
       <div class="container">
-        <section class="dew-container">
-          <img src="" alt="bombilla" />
-        </section>
-        <aside class="main-title">
+
           <h1>Contáctanos</h1>
 
-          <a href="contact.html" class="primary-button"><button>Te llamamos</button></a>
-        </aside>
-      </div>
+          <form method="post">
+        <fieldset>
+        <label for="name">Nombre<input id="name" name="nombre" type="text" required  placeholder="Escribe tu nombre"/></label>
+        <label for="email">Mail<input id="email" name="email" type="email" required  placeholder="Escribe tu email"/></label>
+        <textarea id="consulta" name="consulta" rows="5" placeholder="Escribe tu consula..."></textarea>
+          </form>
+          <a href="contact.html" class="primary-button"><button>enviar</button></a>
+          <button>cancelar</button>
+          </div>
     </main>
     <footer>
       <ul class="container">
