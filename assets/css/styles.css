@@ -165,13 +165,14 @@ li.developer img {
   height: 6.25em; 
   border-radius: 50%;
   background-color: var(--dark-bg);
+
 }
 
 li.developer h2 {
-  margin: 0.3125em 0; 
+  margin: 0.3125em 0 0; 
 }
 
 li.developer p {
-  margin: 0.3125em 0;
+  margin: 0;
 }
 
