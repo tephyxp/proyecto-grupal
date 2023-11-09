@@ -208,6 +208,27 @@ li.developer p {
     padding-right: 265px;
 }
 
+.container-2 img {
+  width: 17em; 
+  height: 17em; 
+  border-radius: 50%;
+  background-color: var(--dark-bg);
+
+}
+ .main-name, .name-spe h2 {
+  color: var(--dark-bg);
+  margin-top: 5px;
+  margin-left: 60px;
+
+}
+.main-name article {
+  margin: 5px 60px;
+
+}
+.contact, .primary-button a i { 
+  margin-top: 90px;
+}
+
 /* página contact */
 
 .contact-container{
@@ -311,5 +332,4 @@ label {
 .secondary-input{
   display: flex;
   flex-direction: column;
-} HEAD
-
+} 
