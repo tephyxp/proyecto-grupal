@@ -16,3 +16,7 @@ menu, nav, section, summary
 	font: inherit;
 	vertical-align: baseline;
 }
+ul{
+    list-style-type: none; 
+    margin: 0;
+}

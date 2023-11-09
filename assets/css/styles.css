@@ -24,6 +24,8 @@ h1 {
   line-height: 88.5%;
 }
 
+
+
 h2 {
   color: var(--color-white);
 }
@@ -74,9 +76,43 @@ header , footer{
   background-color: var(--brand-color);
 }
 
+header{
+    height: 102px;
 
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
+main {
+    padding: 56px 0;
+}
+/*
+.dew-container {
+    background-image: url("../images/gota.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+*/
+.dew-container img{
+    max-width: 353px;
+}
+
+.dew-container{
+    width: 444px;
+     background: #E19898;
+     border-radius: 100% 0 100% 100%;
+     height: 444px;
+    } 
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-content: center;
+    }
+
+.nav-container {
+    display: flex;
+    gap: 3rem;
+}
