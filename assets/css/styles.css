@@ -120,10 +120,25 @@ justify-content: space-between;
 align-content: center;
     }
 
-.nav-container {
+
+    .nav-container {
     display: flex;
     gap: 3rem;
+    align-items: center;
 }
+
+a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.tertiary-button button{
+    border-radius: 28px;
+    border: 1px solid var(--light-bg);
+    color: var(--color-white);  
+    background-color: var(--button-tertiary);
+    padding: 10px 20px;
+    }
 
 main .container{
     display:grid;
