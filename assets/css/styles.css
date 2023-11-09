@@ -204,3 +204,16 @@ li.developer p {
   margin: 0.3125em 0;
 }
 
+/*paginas perfil*/
+
+.main-name{
+    padding-right: 205px;
+    text-align: justify;
+}
+.name-spe{
+    padding-right: 265px;
+}
+
+.contact{
+    content:align;
+}
