@@ -1,19 +1,54 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
 :root {
-    --light-bg: #F9EAEA;
-    --dark-bg: #1E1E1E;
-    --brand-color: #E19898;
-    --button-primary: #4D3C77;
-    --button-tertiary: #B07A8D;
-    --color-white: #FFFFFF;
-    
-
+  --light-bg: #f9eaea;
+  --dark-bg: #3f1d38;
+  --brand-color: #e19898;
+  --button-primary: #4d3c77;
+  --button-tertiary: #b07a8d;
+  --color-white: #ffffff;
 }
 
 body {
-font-family: 'Jost', Arial, Helvetica, sans-serif;
-
+  font-family: "Jost", Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  color: var(--brand-color);
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.075rem;
+  line-height: 88.5%;
+}
+
+h2 {
+  color: var(--color-white);
+}
+
+h3 {
+  color: var(--dark-bg);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.06rem;
+  line-height: normal;
+}
+
+h2,
+p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: var(--dark-bg);
+}
+
+.fa-brands,
+.fab {
+  color: var(--dark-bg);
+  font-size: 48px;
+}
