@@ -24,8 +24,6 @@ h1 {
   line-height: 88.5%;
 }
 
-
-
 h2 {
   color: var(--color-white);
 }
@@ -61,7 +59,8 @@ a.primary-button {
   padding: 0.625rem 0;
 }
 
-a.primary-button button {
+a.primary-button button,
+input.primary-button {
   background-color: var(--button-primary);
   border: none;
   border-radius: 1.75rem;
@@ -69,33 +68,32 @@ a.primary-button button {
   cursor: pointer;
   font-family: var(--font-family);
   font-size: 1.25rem;
-  padding: 0.625rem 3.0625rem;
   margin-top: 2rem;
+  padding: 0.625rem 3.0625rem;
 }
 
-a.primary-button button:hover
-{
-    background-color:var(--dark-bg) ;
-    transition: all 500ms ease-in-out; 
+a.primary-button button:hover {
+  background-color: var(--dark-bg);
+  transition: all 500ms ease-in-out;
 }
 
-header , footer{
+header,
+footer {
   background-color: var(--brand-color);
 }
 
-header{
-    padding: 2rem;
-
+header {
+  padding: 2rem;
 }
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 main {
-    padding: 56px 0;
-    max-width: 1100px;
-    margin: 0 auto;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 56px 0;
 }
 /*
 .dew-container {
@@ -105,102 +103,96 @@ main {
 }
 */
 .dew-container img {
-    max-width: 400px;
-    margin: 0 auto;
-    display: block;
-    padding: 4.5rem 0;
-    width: 100%;
-}
- 
-
-.dew-container{
-    width: 444px;
-     background: #E19898;
-     border-radius: 100% 0 100% 100%;
-     height: 444px;
-    } 
-
-.navbar{
-display: flex;
-justify-content: space-between;
-align-content: center;
-    }
-
-
-    .nav-container {
-    display: flex;
-    gap: 3rem;
-    align-items: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 4.5rem 0;
+  width: 100%;
 }
 
-a{
-    text-decoration: none;
-    color: var(--color-white);
+.dew-container {
+  background: #e19898;
+  border-radius: 100% 0 100% 100%;
+  height: 444px;
+  width: 444px;
 }
 
-.tertiary-button button{
-    border-radius: 28px;
-    border: 1px solid var(--light-bg);
-    color: var(--color-white);  
-    background-color: var(--button-tertiary);
-    padding: 0.625rem 1.25rem;
-    cursor: pointer;
-    font-family: var(--font-family);
-    font-size: 1rem;
-    }
-
-    .tertiary-button button:hover{
-        background-color:var(--button-primary) ;
-        transition: all 500ms ease-in-out;
-    }
-
-main .container{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-  
-
-    
+.navbar {
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
 }
 
-aside{
-    align-self: center;
+.nav-container {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+}
+
+a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.tertiary-button button {
+  background-color: var(--button-tertiary);
+  border: 1px solid var(--light-bg);
+  border-radius: 28px;
+  color: var(--color-white);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: 0.625rem 1.25rem;
+}
+
+.tertiary-button button:hover {
+  background-color: var(--button-primary);
+  transition: all 500ms ease-in-out;
+}
+
+main .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+aside {
+  align-self: center;
 }
 
 /* Estilo para el footer */
 
 footer {
-  background-color: var(--brand-color); 
-  padding: 1.25em; 
+  background-color: var(--brand-color);
+  padding: 1.25em;
 }
 
 ul.container {
-  list-style: none;
   display: flex;
   justify-content: space-around;
+  list-style: none;
 }
 
 li.developer {
   background-color: var(--brand-color);
-  border-radius: 0.625em; 
+  border-radius: 0.625em;
+  margin: 0.625em;
   overflow: hidden;
-  width: 12.5em;
-  text-align: center;
   padding: 0.625em;
-  margin: 0.625em; 
+  text-align: center;
+  width: 12.5em;
 }
 
 li.developer img {
-  width: 6.25em; 
-  height: 6.25em; 
-  border-radius: 50%;
   background-color: var(--dark-bg);
+  border-radius: 50%;
+  height: 6.25em;
+  width: 6.25em;
 }
 
 li.developer h2 {
-  margin: 0.3125em 0; 
+  margin: 0.3125em 0;
 }
 
 li.developer p {
   margin: 0.3125em 0;
 }
-
