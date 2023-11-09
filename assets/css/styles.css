@@ -191,6 +191,7 @@ li.developer img {
 }
 
 li.developer h2 {
+  margin: 0.3125em 0 0; 
 }
 
 li.developer p {
