@@ -208,6 +208,13 @@ li.developer p {
     padding-right: 265px;
 }
 
+<<<<<<< HEAD
+.formulary {
+  display: grid;
+  gap: 10px;
+
+=======
 .contact{
     content:align;
+>>>>>>> 50190f05ed2fa3a48642140017e986a8a152fc33
 }
