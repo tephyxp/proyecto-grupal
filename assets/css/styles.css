@@ -137,3 +137,41 @@ aside{
     align-self: center;
 }
 
+/* Estilo para el footer */
+
+footer {
+  background-color: var(--brand-color); 
+  padding: 1.25em; 
+}
+
+ul.container {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li.developer {
+  background-color: var(--brand-color);
+  border-radius: 0.625em; 
+  overflow: hidden;
+  width: 12.5em;
+  text-align: center;
+  padding: 0.625em;
+  margin: 0.625em; 
+}
+
+li.developer img {
+  width: 6.25em; 
+  height: 6.25em; 
+  border-radius: 50%;
+  background-color: var(--dark-bg);
+}
+
+li.developer h2 {
+  margin: 0.3125em 0; 
+}
+
+li.developer p {
+  margin: 0.3125em 0;
+}
+
