@@ -208,6 +208,8 @@ li.developer p {
     padding-right: 265px;
 }
 
-.contact{
-   
+.formulary {
+  display: grid;
+  gap: 10px;
+
 }
