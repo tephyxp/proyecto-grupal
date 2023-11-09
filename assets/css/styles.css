@@ -70,6 +70,7 @@ a.primary-button button {
   font-family: var(--font-family);
   font-size: 1.25rem;
   padding: 0.625rem 3.0625rem;
+  margin-top: 2rem;
 }
 
 header , footer{
@@ -77,7 +78,7 @@ header , footer{
 }
 
 header{
-    height: 102px;
+    padding: 2rem;
 
 }
 .container {
@@ -87,6 +88,8 @@ header{
 
 main {
     padding: 56px 0;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 /*
 .dew-container {
@@ -95,9 +98,14 @@ main {
     background-size: contain;
 }
 */
-.dew-container img{
-    max-width: 353px;
+.dew-container img {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    padding: 4.5rem 0;
+    width: 100%;
 }
+ 
 
 .dew-container{
     width: 444px;
@@ -116,3 +124,16 @@ align-content: center;
     display: flex;
     gap: 3rem;
 }
+
+main .container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  
+
+    
+}
+
+aside{
+    align-self: center;
+}
+
