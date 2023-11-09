@@ -7,10 +7,11 @@
   --button-primary: #4d3c77;
   --button-tertiary: #b07a8d;
   --color-white: #ffffff;
+  --font-family: "Jost", Arial, Helvetica, sans-serif;
 }
 
 body {
-  font-family: "Jost", Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 h1 {
@@ -51,4 +52,19 @@ p {
 .fab {
   color: var(--dark-bg);
   font-size: 48px;
+}
+
+a.primary-button {
+  padding: 0.625rem 0;
+}
+
+a.primary-button button {
+  background-color: var(--button-primary);
+  border: none;
+  border-radius: 1.75rem;
+  color: var(--color-white);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 1.25rem;
+  padding: 0.625rem 3.0625rem;
 }
