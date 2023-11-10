@@ -329,6 +329,24 @@ label {
   display: none;
 }
 
+.contact {
+  align-items: center;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.contact a i {
+  margin-left: 58px;
+  margin-right: 1rem;
+  margin-top: 0px;
+}
+
+.contact > button,
+.contact > .primary-button,
+.contact > a.primary-button button {
+  margin-top: 0rem;
+}
+
 /* ———– estilos página contact para móviles ———– */
 /* cambios css para modo vertical y horizontal */
 
@@ -488,7 +506,7 @@ label {
     margin-left: 0;
   }
 
-  .contact {
-    margin-top: 0px;
+  .contact a i {
+    margin-left: 0px;
   }
 }
