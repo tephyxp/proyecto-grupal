@@ -397,6 +397,19 @@ label {
     display: none;
   }
 
+  .footer-index {
+    display: block;
+  }
+
+  ul.container {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  li.developer {
+    width: 35%;
+  }
+
   .footer-mobile {
     background-color: var(--dark-bg);
     display: block;
