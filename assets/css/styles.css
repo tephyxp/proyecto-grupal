@@ -333,6 +333,28 @@ label {
 /* cambios css para modo vertical y horizontal */
 
 @media only screen and (min-width: 320px) and (max-width: 896px) {
+  h1 {
+    font-size: 3rem;
+    letter-spacing: -0.045rem;
+    line-height: 80%;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .main-title h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  main .container {
+    grid-template-columns: 1fr;
+    padding: 1rem 2.5rem;
+  }
+
+  .dew-container img {
+    padding: 0;
+  }
   .contact-container {
     height: 28em;
   }
