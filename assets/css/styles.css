@@ -183,15 +183,14 @@ li.developer {
 }
 
 li.developer img {
-  width: 6.25em; 
-  height: 6.25em; 
-  border-radius: 50%;
   background-color: var(--dark-bg);
-
+  border-radius: 50%;
+  height: 6.25em;
+  width: 6.25em;
 }
 
 li.developer h2 {
-  margin: 0.3125em 0 0; 
+  margin: 0.3125em 0 0;
 }
 
 li.developer p {
@@ -200,66 +199,60 @@ li.developer p {
 
 /*paginas perfil*/
 
-.main-name{
-    padding-right: 205px;
-    text-align: justify;
+.main-name {
+  padding-right: 205px;
+  text-align: justify;
 }
-.name-spe{
-    padding-right: 265px;
+.name-spe {
+  padding-right: 265px;
 }
 
 .container-2 img {
-  width: 17em; 
-  height: 17em; 
-  border-radius: 50%;
   background-color: var(--dark-bg);
+  border-radius: 50%;
+  height: 17em;
   margin-top: 90px;
-  
-
-
+  width: 17em;
 }
 
- .name-spe h1 {
+.name-spe h1 {
   margin-left: 60px;
-
 }
 
- .main-name, .name-spe h2 {
+.main-name,
+.name-spe h2 {
   color: var(--dark-bg);
-  margin-top: 5px;
   margin-left: 60px;
-
+  margin-top: 5px;
 }
 .main-name article {
-  margin-top: 30px;
   margin-left: 60px;
-
+  margin-top: 30px;
 }
-  .contact, .primary-button { 
-  margin-top: 70px;
+.contact,
+.primary-button {
   margin-left: 35px;
+  margin-top: 70px;
 }
 .contact a i {
-  margin-top: 100px;
   margin-left: 30px;
-
+  margin-top: 100px;
 }
 /* página contact */
 
 .contact-container {
-  width: 100%;
-  height: 18em;
   display: flex;
   flex-direction: column;
+  height: 18em;
   margin: 0 auto;
   max-width: 1100px;
   padding-bottom: 7em;
-
+  width: 100%;
 }
 
 .contact-title {
-  height: 3rem;
   font-size: 4em;
+  height: 3rem;
   margin-bottom: 0.3em;
 }
 
@@ -270,40 +263,38 @@ li.developer p {
 }
 
 input {
-  background-color: var(--light-bg);
-  border-color: var(--light-bg);
   appearance: none;
+  background-color: var(--light-bg);
   border: none;
-  outline: none;
+  border-color: var(--light-bg);
   border-radius: 1.5em;
-  padding: 0.625rem 1.25rem;
-  width: 18em;
   font-family: inherit;
   font-size: inherit;
-
-
+  outline: none;
+  padding: 0.625rem 1.25rem;
+  width: 18em;
 }
 
 input::placeholder {
-  color: #C9BFBE;
+  color: #c9bfbe;
 }
 
 textarea {
+  appearance: none;
   background-color: var(--light-bg);
   border-color: var(--light-bg);
-  appearance: none;
-  outline: none;
-  width: 18em;
-  padding: 0.5rem 1.25rem;
   border-radius: 1.5em;
+  color: #c9bfbe;
   font-family: inherit;
   font-size: inherit;
-  color: #C9BFBE;
-  resize: none
+  outline: none;
+  padding: 0.5rem 1.25rem;
+  resize: none;
+  width: 18em;
 }
 
 textarea::placeholder {
-  color: #C9BFBE;
+  color: #c9bfbe;
 }
 
 .first-inputs {
@@ -313,9 +304,9 @@ textarea::placeholder {
 }
 
 .buttons {
+  display: flex;
   margin-top: 20px;
   padding: 0.625rem 1.25rem 0.625rem 0;
-  display: flex;
 }
 
 .buttons-mobile {
@@ -383,13 +374,11 @@ label {
 
   .contact-container {
     height: 30em;
-
   }
 
   .contact-title {
     margin-left: 0.5em;
   }
-
 
   .data-container {
     display: flex;
@@ -411,15 +400,13 @@ label {
 
   .buttons-mobile {
     display: flex;
-    order: 4;
-    justify-content: center;
-    padding-top: 1em;
     gap: 1em;
-
+    justify-content: center;
+    order: 4;
+    padding-top: 1em;
   }
 
   .buttons-mobile button {
-
     width: 8em;
   }
 
@@ -429,21 +416,19 @@ label {
 
   footer {
     display: none;
-    ;
   }
 
   .footer-mobile {
     background-color: var(--dark-bg);
     display: block;
-
   }
 
   .footer-container {
     align-items: center;
     display: flex;
-    justify-content: center;
     gap: 1rem;
     height: 3em;
+    justify-content: center;
     padding-left: 2em;
   }
 
@@ -459,8 +444,22 @@ label {
     cursor: pointer;
     font-family: var(--font-family);
     font-size: 1rem;
-    padding: 0.625rem 1.9rem;
     margin: 0;
+    padding: 0.625rem 1.9rem;
   }
 
+  .footer-index {
+    display: block;
+  }
+
+  ul.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+  }
+
+  li.developer {
+    width: 7.5em;
+  }
 }
