@@ -461,4 +461,34 @@ label {
     margin: 0;
     padding: 0.625rem 1.9rem;
   }
+
+  .container-2 img {
+    width: 75vw;
+  }
+
+  .main-name {
+    margin-left: 0;
+    padding-right: 0px;
+    text-align: left;
+  }
+
+  .name-spe {
+    padding-right: 0;
+  }
+
+  .name-spe h1 {
+    margin-left: 0px;
+  }
+
+  .name-spe h2 {
+    margin-left: 0px;
+  }
+
+  .main-name article {
+    margin-left: 0;
+  }
+
+  .contact {
+    margin-top: 0px;
+  }
 }
