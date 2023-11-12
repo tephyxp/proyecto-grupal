@@ -1,1 +1,1 @@
-# proyecto-grupal
+Hopper Lab is a company founded, managed and led by women. We focus on leveraging technology to womens intresting and benifit. We are driven by visionary female leaders who bring unique perspectives, diverse experiences, and innovative ideas to the table. We strive to disrupt the existing norms and create technology solutions that cater to our community.
